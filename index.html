@@ -7,14 +7,23 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>My To Do List</h1>
+    <h1 id="test">My To Do List</h1>
     <div class="task-input-ctnr">
-      <input type="text" name="task-input" id="task-input" />
-      <input type="button" id="add-btn" class="add-btn" value="Add To Do" />
+      <input
+        type="text"
+        name="task-input"
+        id="task-input"
+        placeholder="Enter a task."
+      />
+      <button type="button" id="add-btn" class="add-btn" onclick="test()">
+        Add Task
+      </button>
     </div>
-    <form id="form-body" class="form-body">
-      <ul id="list-ctnr"></ul>
-    </form>
+    <div id="demo" style="text-align: center"></div>
+
+    <ul id="list-ctnr" class="list-ctnr">
+      <!-- tado items here -->
+    </ul>
 
     <!-- Beginning of scripts -->
     <script src="script.js"></script>
