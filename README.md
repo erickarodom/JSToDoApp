@@ -7,21 +7,20 @@ This TO-DO app is going to continue to build up your HTML/CSS & Javascript skill
 Here is an example of a working [ToDo App](https://software-development-mastermind.github.io/to-do-example/)
 
  ## Guidelines
- - 🕰 Completion time is 2 weeks.
+ - 🕰 Completion time is 1 week.
  - 📚 No libraries or frameworks.
  - ![Static Badge](https://img.shields.io/badge/Trust_and_challenge-yourself-blue)
  -  Don't follow a tutorial or copy someone elses project code.
 
 
 ## Deliverables
-1. User can select a rock, paper or scissors.
-2. When a user selects rock, paper or scissors the screen will display:
-  - what the computer player has chosen.
-  - whether they have won or lost that game.
-3. The user can play as many times as they want.
-4. A score of total wins and losses will be displayed.
-5. Application is publicly available on GitHub [pages](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site) (explained).
-6. [My Live Application](https://erickarodom.github.io/project-three/)
+1. A user can create a todo item by entering text into an input box and pressing a button.
+2. A list of created todo items are shown on the screen.
+3. A user can mark any todo item as completed.
+4. When a todo item is marked as completed the text of the todo should ce crossed out (using strikethrough font).
+5. A user can delete an existing todo  (for todos that have been marked as completed).
+6. Application is publicly available on GitHub [pages](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site) (explained).
+7. [My Live Application](https://erickarodom.github.io/project-three/)
 
 ## License
 Distributed under the MIT License.
