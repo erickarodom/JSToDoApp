@@ -1,8 +1,6 @@
 // Global Variables
 const x = document.getElementById("task-input");
 const addBtn = document.getElementById("add-btn");
-addBtn.addEventListener("click", toDo);
-
 
 function toDo(){
     const newTask = x.value;
@@ -21,25 +19,30 @@ function toDo(){
     completeBtn.appendChild(completeBtnText);
     item.appendChild(completeBtn);
 
-    // toggle strike on/off for completed task.
-    completeBtn.addEventListener("click", function(){
-        const addStrike = newTaskText.classList.toggle("task-done");
+
         // Add delete button 
         const deleteBtn = document.createElement("button");
         const deleteBtnText = document.createTextNode("Delete");
         deleteBtn.appendChild(deleteBtnText);
+        deleteBtn.classList.add("delete-btn");
         item.appendChild(deleteBtn);
+
+        // toggle strike on/off for completed task.
+        completeBtn.addEventListener("click", function(){
+        newTaskText.classList.toggle("task-done");
+        // display button if task is complete
+        deleteBtn.classList.toggle("delete-btn");
+    });
        
         //delete "this" to do on click
         deleteBtn.addEventListener("click", function(){
         item.remove();
-    });
 });
-
 // add task to list
-const node = document.getElementById("list-ctnr").appendChild(item);
+document.getElementById("list-ctnr").appendChild(item);
 
 //clear value from input
 x.value= " ";
  }
 }
+addBtn.addEventListener("click", toDo);
