@@ -30,7 +30,7 @@ div.task-input-ctnr {
 }
 
 li {
-  min-width: 300px;
+  min-width: 500px;
   list-style-type: none;
   text-align: center;
   border-bottom: 1px black solid;
