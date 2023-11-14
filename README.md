@@ -1,4 +1,4 @@
-This is Project Three for SDMM
+This is Project Three for SDMM -ToDo App
 ============================
 ### About
 ![Static Badge](https://img.shields.io/badge/Remember-have_fun-blue)
