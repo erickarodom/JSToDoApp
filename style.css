@@ -37,9 +37,17 @@ li {
   padding-top: 20px;
   padding-bottom: 5px;
 }
+
+li > p {
+  margin-bottom: 0;
+}
+li > button {
+  justify-self: right;
+}
 button {
   margin-left: 5px;
 }
 .task-done {
+  color: red;
   text-decoration: line-through;
 }
