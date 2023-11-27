@@ -20,7 +20,7 @@ Here is an example of a working [ToDo App](https://software-development-mastermi
 4. When a todo item is marked as completed the text of the todo should ce crossed out (using strikethrough font).
 5. A user can delete an existing todo  (for todos that have been marked as completed).
 6. Application is publicly available on GitHub [pages](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site) (explained).
-7. [My Live Application](https://erickarodom.github.io/project-three/)
+7. [My Live Application](https://erickarodom.github.io/JSToDoApp/)
 
 ## License
 Distributed under the MIT License.
